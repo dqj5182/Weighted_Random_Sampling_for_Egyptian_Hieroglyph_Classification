@@ -2,4 +2,4 @@
 
 
 TODO:
-1. Implement larger Capsule Network
+1. Implement a larger Capsule Network with more capsules and dynamic routings
