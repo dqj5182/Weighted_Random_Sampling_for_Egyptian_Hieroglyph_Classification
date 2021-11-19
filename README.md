@@ -23,7 +23,7 @@ Steps for running <b>Jupyter Notebook</b>:
 5. The training will start right away!
 
 Performance (Accuracy on 40 classes):
-1. ResNet-50 (Pretrained): 98.6% | ResNet-50 (from scratch): 97.0%
+1. ResNet-50 (Pretrained): 98.6% | ResNet-50 (from scratch): 97.0% | ResNet-50 (Pretrained with clean dataset): 99.36%
 2. Inception-v3 (Pretrained): 99.2% | Inception-v3 (from scratch): 98.4%
 
 Prior implementations:
