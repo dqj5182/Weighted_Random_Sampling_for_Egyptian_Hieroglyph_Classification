@@ -23,7 +23,8 @@ Steps for running <b>Jupyter Notebook</b>:
 5. The training will start right away!
 
 Performance (Accuracy on 40 classes):
-1. ResNet-50: 98.6%
+1. ResNet-50 (Pretrained): 98.6%
+2. Inception-v3 (Pretrained): 99.2%
 
 Prior implementations:
 1. [GlyphReader by Morris Franken](https://github.com/morrisfranken/glyphreader) which extracts features using Inception-v3 and classifies hieroglyphs using SVM.
