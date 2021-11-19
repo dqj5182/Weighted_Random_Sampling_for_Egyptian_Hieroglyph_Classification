@@ -16,11 +16,12 @@ Steps for running <b>full Python code</b>:
 5. The training will start right away!
 
 Steps for running <b>Jupyter Notebook</b>:
-1. Click Egyptian_model_with_ResNet_Modular.ipynb in my repo
-2. Click "Open in Colab"
-3. Download "EgyptianHieroglyphDataset_Original" dataset from my Google Drive and store it into your Google Drive
-4. Connect the Google Colab with your Google Drive and run the codes
-5. The training will start right away!
+1. Choose any folder of model architectures that you want to run
+2. Click one of the ipynb files in my repo (same model with different cases whether pretrained and whether clean dataset)
+3. Click "Open in Colab"
+4. Download "EgyptianHieroglyphDataset_Original" dataset from my Google Drive and store it into your Google Drive
+5. Connect the Google Colab with your Google Drive and run the codes
+6. The training will start right away!
 
 Performance (Accuracy on 40 classes):
 1. ResNet-50 (Pretrained): 98.6% | ResNet-50 (from scratch): 97.0% | ResNet-50 (Pretrained with clean dataset): 99.36%
