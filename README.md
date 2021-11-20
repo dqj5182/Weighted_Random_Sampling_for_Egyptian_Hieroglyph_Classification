@@ -24,6 +24,7 @@ Steps for running <b>Jupyter Notebook</b>:
 5. Connect the Google Colab with your Google Drive and run the codes
 6. The training will start right away!
 
+Performances: 
 **Model** | Pretrained | From scratch | Pretrained with clean dataset | From scratch with clean dataset
 ------------ | ------------ | ------------- | ------------- | -------------
 ResNet-50 | 98.6% | 97.0% | 99.36% | Not yet
