@@ -24,7 +24,7 @@ Steps for running <b>Jupyter Notebook</b>:
 5. Connect the Google Colab with your Google Drive and run the codes
 6. The training will start right away!
 
-Performances: 
+Performances (train with data augmentation except CapsNet and test with data augmentation except CapsNet): 
 **Model** | Pretrained | From scratch | Pretrained with clean dataset | From scratch with clean dataset
 ------------ | ------------ | ------------- | ------------- | -------------
 ResNet-50 | 98.6% | 97.0% | 99.36% | 95.43%
@@ -32,6 +32,15 @@ Inception-v3 | 99.2% | 98.2% | 99.4% | 98.4%
 Xception | 98.74% | 97.48% | 99.21% | 97.9%    
 Capsule Network | - | 98.11% | - | 98.74%
 Capsule Network with data augmentation | - | Not yet | - | 93.37%
+
+Performances (train without data augmentation and test with data augmentation): 
+**Model** | Pretrained | From scratch | Pretrained with clean dataset | From scratch with clean dataset
+------------ | ------------ | ------------- | ------------- | -------------
+ResNet-50 | Not yet | Not yet | Not yet | Not yet
+Inception-v3 | Not yet | Not yet | Not yet | Not yet
+Xception | Not yet | Not yet | Not yet | Not yet
+Capsule Network | - | Not yet | - | Not yet
+Capsule Network with data augmentation | - | Not yet | - | Not yet
 
 Pretrained performance for Capsule Network is not on this paper for both computational limit and our pursuit on training from scratch approach using Capsule Network
 
