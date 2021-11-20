@@ -1,4 +1,4 @@
-# Egyptian_Hieroglyph_Classification_CapsNet
+# Egyptian Hieroglyph Classification using Capsule Network
 
 This is a [PyTorch](https://pytorch.org/) implementation of the paper ["A Deep Learning Approach to Ancient Egyptian Hieroglyphs Classification" by Barucci et al](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9528382&tag=1).
 
