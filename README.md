@@ -31,6 +31,7 @@ ResNet-50 | 98.6% | 97.0% | 99.36% | Not yet
 Inception-v3 | 99.2% | 98.2% | 99.4% | 98.4% 
 Xception | 98.74% | 97.48% | Not yet | 97.9%    
 Capsule Network | - | 98.11% | - | 98.74%
+
 Pretrained performance for Capsule Network is not on this paper for both computational limit and our pursuit on training from scratch approach using Capsule Network
 
 Prior implementations:
