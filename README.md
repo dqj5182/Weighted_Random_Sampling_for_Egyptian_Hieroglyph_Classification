@@ -24,6 +24,8 @@ Steps for running <b>Jupyter Notebook</b>:
 5. Connect the Google Colab with your Google Drive and run the codes
 6. The training will start right away!
 
+**Model** | Pretrained | From scratch | Pretrained with clean dataset | From scratch with clean dataset
+------------ | ------------ | ------------- | ------------- | -------------
 Performance (Accuracy on 40 classes):
 ResNet-50 (Pretrained): 98.6% | ResNet-50 (from scratch): 97.0% | ResNet-50 (Pretrained with clean dataset): 99.36%
 ------------ | ------------ | ------------- | -------------
