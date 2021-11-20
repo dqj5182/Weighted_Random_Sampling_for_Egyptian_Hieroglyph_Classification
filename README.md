@@ -39,8 +39,7 @@ Performances (train without data augmentation and test with data augmentation):
 ResNet-50 | Not yet | Not yet | 58.67% | Not yet
 Inception-v3 | Not yet | Not yet | 79.02% | Not yet
 Xception | Not yet | Not yet | Not yet | Not yet
-Capsule Network | - | Not yet | - | Not yet
-Capsule Network with data augmentation | - | Not yet | - | 48.89%
+Capsule Network | - | Not yet | - | 48.89%
 
 Pretrained performance for Capsule Network is not on this paper for both computational limit and our pursuit on training from scratch approach using Capsule Network
 
