@@ -29,9 +29,9 @@ ResNet-50 (Pretrained): 98.6% | ResNet-50 (from scratch): 97.0% | ResNet-50 (Pre
 ------------ | ------------ | ------------- | -------------
 Inception-v3 (Pretrained): 99.2% | Inception-v3 (from scratch): 98.2% | Inception-v3 (from scratch with clean dataset): 98.4% | Inception-v3 (Pretrained with clean dataset): 99.4%
 ------------ | ------------ | ------------- | -------------
-Xception (Pretrained): 98.74% | Xception (from scratch): 97.48% | Xception (from scratch with clean dataset): 97.9%
+Xception (Pretrained): 98.74% | Xception (from scratch): 97.48% | Xception (from scratch with clean dataset): 97.9% |.    
 ------------ | ------------ | ------------- | -------------
-Capsule Network (from scratch): 98.11% | Capsule Network (from scratch with clean dataset): 98.74%
+     |.      | Capsule Network (from scratch): 98.11% | Capsule Network (from scratch with clean dataset): 98.74%
 
 Prior implementations:
 1. [GlyphReader by Morris Franken](https://github.com/morrisfranken/glyphreader) which extracts features using Inception-v3 and classifies hieroglyphs using SVM.
