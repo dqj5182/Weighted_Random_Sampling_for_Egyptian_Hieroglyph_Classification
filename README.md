@@ -43,6 +43,11 @@ Capsule Network | - | Not yet | - | 48.89%
 
 Pretrained performance for Capsule Network is not on this paper for both computational limit and our pursuit on training from scratch approach using Capsule Network
 
+Capsule Network Hyperparameter tuning
+**Model** | num_capsules | routing_iterations | performance
+Capsule Network | 12 | 3 | 97%
+Capsule Network | 15 | 3 | 
+
 Prior implementations:
 1. [GlyphReader by Morris Franken](https://github.com/morrisfranken/glyphreader) which extracts features using Inception-v3 and classifies hieroglyphs using SVM.
 
