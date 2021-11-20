@@ -1,6 +1,6 @@
 # Egyptian Hieroglyph Classification using Capsule Network
 
-This is a [PyTorch](https://pytorch.org/) implementation of the paper ["A Deep Learning Approach to Ancient Egyptian Hieroglyphs Classification" by Barucci et al](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9528382&tag=1).
+This is a [PyTorch](https://pytorch.org/) implementation of the paper "Egyptian Hieroglyph Classification using Capsule Network" by Daniel Jung, Kangdong Yuan, and Kaamran Raahemifar.
 
 Please download the dataset "EgyptianHieroglyphDataset_Original" at my [Google Drive](https://drive.google.com/drive/folders/1bhnMJ8NbCa-qw53EKy-olZp3cJKZU_jc?usp=sharing).<br />
 Please download the dataset "EgyptianHieroglyphDataset_Original_Clean" at my [Google Drive](https://drive.google.com/drive/folders/1X5HdFvgWJOVtA-GxBLr1K_0FHJS2RZcZ?usp=sharing).
