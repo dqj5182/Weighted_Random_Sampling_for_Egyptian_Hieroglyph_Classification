@@ -25,10 +25,13 @@ Steps for running <b>Jupyter Notebook</b>:
 6. The training will start right away!
 
 Performance (Accuracy on 40 classes):
-1. ResNet-50 (Pretrained): 98.6% | ResNet-50 (from scratch): 97.0% | ResNet-50 (Pretrained with clean dataset): 99.36%
-2. Inception-v3 (Pretrained): 99.2% | Inception-v3 (from scratch): 98.2% | Inception-v3 (from scratch with clean dataset): 98.4% | Inception-v3 (Pretrained with clean dataset): 99.4%
-3. Xception (Pretrained): 98.74% | Xception (from scratch): 97.48% | Xception (from scratch with clean dataset): 97.9%
-4. Capsule Network (from scratch): 98.11% | Capsule Network (from scratch with clean dataset): 98.74%
+ResNet-50 (Pretrained): 98.6% | ResNet-50 (from scratch): 97.0% | ResNet-50 (Pretrained with clean dataset): 99.36%
+------------ | ------------ | ------------- | -------------
+Inception-v3 (Pretrained): 99.2% | Inception-v3 (from scratch): 98.2% | Inception-v3 (from scratch with clean dataset): 98.4% | Inception-v3 (Pretrained with clean dataset): 99.4%
+------------ | ------------ | ------------- | -------------
+Xception (Pretrained): 98.74% | Xception (from scratch): 97.48% | Xception (from scratch with clean dataset): 97.9%
+------------ | ------------ | ------------- | -------------
+Capsule Network (from scratch): 98.11% | Capsule Network (from scratch with clean dataset): 98.74%
 
 Prior implementations:
 1. [GlyphReader by Morris Franken](https://github.com/morrisfranken/glyphreader) which extracts features using Inception-v3 and classifies hieroglyphs using SVM.
