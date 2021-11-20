@@ -36,7 +36,7 @@ Capsule Network with data augmentation | - | Not yet | - | 93.37%
 Performances (train without data augmentation and test with data augmentation): 
 **Model** | Pretrained | From scratch | Pretrained with clean dataset | From scratch with clean dataset
 ------------ | ------------ | ------------- | ------------- | -------------
-ResNet-50 | Not yet | Not yet | Not yet | Not yet
+ResNet-50 | Not yet | Not yet | 58.67% | Not yet
 Inception-v3 | Not yet | Not yet | Not yet | Not yet
 Xception | Not yet | Not yet | Not yet | Not yet
 Capsule Network | - | Not yet | - | Not yet
