@@ -46,6 +46,7 @@ Pretrained performance for Capsule Network is not on this paper for both computa
 Capsule Network Hyperparameter tuning
 **Model** | num_capsules | routing_iterations | performance
 ------------ | ------------ | ------------- | -------------
+Capsule Network | 8 | 3 | 98.74%
 Capsule Network | 12 | 3 | 97%
 Capsule Network | 15 | 3 | Not yet
 
