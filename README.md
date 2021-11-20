@@ -40,4 +40,5 @@ Prior implementations:
 TODO:
 1. Implementation for Glyphnet
 2. Implement a larger Capsule Network with more capsules and dynamic routings
-3. Test on horizontal and vertical flip testing (with no horizontal and vertical flip training)
+3. Implementation of CapsNet with data augmentation
+4. Test on horizontal and vertical flip testing (with no horizontal and vertical flip training)
