@@ -39,7 +39,7 @@ Performances (train without data augmentation and test with data augmentation):
 ------------ | ------------ | ------------- | ------------- | -------------
 ResNet-50 | Not yet | Not yet | 58.67% | 22.34%
 Inception-v3 | Not yet | Not yet | 79.02% | 61.35%
-Xception | Not yet | Not yet | 48.26% | Not yet
+Xception | Not yet | Not yet | 48.26% | 42.90%
 Glyphnet | Not yet | Not yet | Not yet | Not yet | 
 Capsule Network | - | Not yet | - | 48.89%
 
