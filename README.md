@@ -50,7 +50,7 @@ Capsule Network Hyperparameter tuning
 ------------ | ------------ | ------------- | -------------
 Capsule Network | 8 | 3 | 98.74%
 Capsule Network | 12 | 3 | 97%
-Capsule Network | 15 | 3 | Not yet
+Capsule Network | 15 | 3 | CUDA Out of Memory
 
 Prior implementations:
 1. [GlyphReader by Morris Franken](https://github.com/morrisfranken/glyphreader) which extracts features using Inception-v3 and classifies hieroglyphs using SVM.
