@@ -43,6 +43,13 @@ Xception | 49.76% | 46.61% | 48.26% | 42.90%
 Glyphnet | Not yet | Not yet | Not yet | Not yet | 
 Capsule Network | - | Not yet | - | 48.89%
 
+Performances (171 classes): 
+**Model** | Pretrained | From scratch | 
+------------ | ------------ | ------------- 
+ResNet-50 |  |  | 
+Inception-v3 | 94.49% |  | 
+
+
 Pretrained performance for Capsule Network is not on this paper for both computational limit and our pursuit on training from scratch approach using Capsule Network
 
 Capsule Network Hyperparameter tuning
