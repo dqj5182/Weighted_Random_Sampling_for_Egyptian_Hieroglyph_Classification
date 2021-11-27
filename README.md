@@ -48,6 +48,9 @@ Performances (171 classes):
 ------------ | ------------ | ------------- 
 ResNet-50 |  |  | 
 Inception-v3 | 94.49% |  | 
+Xception |  |  | 
+Glyphnet |  |  | 
+Capsule Network |  |  | 
 
 
 Pretrained performance for Capsule Network is not on this paper for both computational limit and our pursuit on training from scratch approach using Capsule Network
