@@ -2,8 +2,9 @@
 
 This is a [PyTorch](https://pytorch.org/) implementation of the paper "Egyptian Hieroglyph Classification using Capsule Network" by Daniel Jung, Kangdong Yuan, and Kaamran Raahemifar.
 
-Please download the dataset "EgyptianHieroglyphDataset_Original" at my [Google Drive](https://drive.google.com/drive/folders/1bhnMJ8NbCa-qw53EKy-olZp3cJKZU_jc?usp=sharing).<br />
-Please download the dataset "EgyptianHieroglyphDataset_Original_Clean" at my [Google Drive](https://drive.google.com/drive/folders/1X5HdFvgWJOVtA-GxBLr1K_0FHJS2RZcZ?usp=sharing).
+Please download the dataset "EgyptianHieroglyphDataset_Original" (40 classes) at my [Google Drive](https://drive.google.com/drive/folders/1bhnMJ8NbCa-qw53EKy-olZp3cJKZU_jc?usp=sharing).<br />
+Please download the dataset "EgyptianHieroglyphDataset_Original_Clean" (40 classes) at my [Google Drive](https://drive.google.com/drive/folders/1X5HdFvgWJOVtA-GxBLr1K_0FHJS2RZcZ?usp=sharing).
+Please download the dataset "EgyptianHieroglyphDataset_Original_134" (134 classes) at my [Google Drive](https://drive.google.com/drive/folders/1-qaDjJpZv84XIXYX1yAZnqUQBKAMxsgu?usp=sharing).
 
 **Image** | ![alt text](/example/D21.png) | ![alt text](/example/E34.png) | ![alt text](/example/V31.png) 
 ------------ | ------------ | ------------- | -------------
