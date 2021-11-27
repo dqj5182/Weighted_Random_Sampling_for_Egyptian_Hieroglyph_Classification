@@ -44,7 +44,7 @@ Xception | 49.76% | 46.61% | 48.26% | 42.90%
 Glyphnet | Not yet | Not yet | Not yet | Not yet | 
 Capsule Network | - | Not yet | - | 48.89%
 
-Performances (171 classes): 
+Performances (134 classes): 
 **Model** | Pretrained | From scratch | 
 ------------ | ------------ | ------------- 
 ResNet-50 |  |  | 
