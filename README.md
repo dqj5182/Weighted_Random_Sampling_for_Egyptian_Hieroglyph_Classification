@@ -49,7 +49,7 @@ Performances (134 classes):
 ------------ | ------------ | ------------- 
 ResNet-50 | 46.89% |  | 
 Inception-v3 | 94.49% |  | 
-Xception |  |  | 
+Xception | 38.80% |  | 
 Glyphnet |  |  | 
 Capsule Network |  |  | 
 
