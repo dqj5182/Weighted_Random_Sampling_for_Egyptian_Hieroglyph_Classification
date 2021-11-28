@@ -53,6 +53,15 @@ Xception | 38.80% | 18.75% |
 Glyphnet |  |  | 
 Capsule Network |  |  | 
 
+Performances (134 classes with weighted sampler on both training and testing): 
+**Model** | Pretrained | From scratch | 
+------------ | ------------ | ------------- 
+ResNet-50 | | | 
+Inception-v3 |  |  | 
+Xception |  | | 
+Glyphnet |  |  | 
+Capsule Network |  |  | 
+
 
 Pretrained performance for Capsule Network is not on this paper for both computational limit and our pursuit on training from scratch approach using Capsule Network
 
