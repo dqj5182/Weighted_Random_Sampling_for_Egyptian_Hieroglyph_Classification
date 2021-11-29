@@ -51,7 +51,7 @@ ResNet-50 |  | |
 Inception-v3 | 94.49% | 91.79% | 
 Xception |  |  | 
 Glyphnet |  |  | 
-Capsule Network | - |  | 
+Capsule Network | - | CUDA out of memory | 
 
 Performances (134 classes with weighted sampler on both training and testing): 
 **Model** | Pretrained | From scratch | 
@@ -60,7 +60,7 @@ ResNet-50 | 76.90% | 65.06% |
 Inception-v3 | 80.77% | 70.34% | 
 Xception | 80.42% | 72.80% | 
 Glyphnet |  |  | 
-Capsule Network | - |  | 
+Capsule Network | - | CUDA out of memory | 
 
 
 Pretrained performance for Capsule Network is not on this paper for both computational limit and our pursuit on training from scratch approach using Capsule Network
