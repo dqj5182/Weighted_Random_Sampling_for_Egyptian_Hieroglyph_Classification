@@ -58,7 +58,7 @@ Performances (134 classes with weighted sampler on both training and testing):
 ------------ | ------------ | ------------- 
 ResNet-50 | 76.90% | 65.06% | 
 Inception-v3 | 80.77% | 70.34% | 
-Xception |  | | 
+Xception | 80.42% | | 
 Glyphnet |  |  | 
 Capsule Network |  |  | 
 
