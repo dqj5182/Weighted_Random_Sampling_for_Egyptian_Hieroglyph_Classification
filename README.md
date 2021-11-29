@@ -51,7 +51,7 @@ ResNet-50 |  | |
 Inception-v3 | 94.49% | 91.79% | 
 Xception |  |  | 
 Glyphnet |  |  | 
-Capsule Network |  |  | 
+Capsule Network | - |  | 
 
 Performances (134 classes with weighted sampler on both training and testing): 
 **Model** | Pretrained | From scratch | 
