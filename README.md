@@ -78,6 +78,7 @@ Prior implementations:
 TODO:
 1. Implementation for Glyphnet
 2. Implement a larger Capsule Network with more capsules and dynamic routings (CUDA Out of Memory)
-5. Implementation of ROC curve
-6. Trian on 171 classes and test on 40 classes
-7. Ensemble CNN model
+3. Implementation of ROC curve
+4. Trian on 171 classes and test on 40 classes
+5. Ensemble CNN model
+6. Bagging and Boosting with CNN models
