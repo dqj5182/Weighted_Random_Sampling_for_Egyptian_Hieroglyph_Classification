@@ -82,3 +82,4 @@ TODO:
 4. Test on horizontal and vertical flip testing (with no horizontal and vertical flip training)
 5. Implementation of ROC curve
 6. Trian on 171 classes and test on 40 classes
+7. Ensemble CNN model
