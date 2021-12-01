@@ -49,7 +49,7 @@ Performances (134 classes):
 ------------ | ------------ | ------------- 
 ResNet-50 |  | | 
 Inception-v3 | 94.49% | 91.79% | 
-Xception |  |  | 
+Xception | 92.08% |  | 
 Glyphnet |  |  | 
 Capsule Network | - | CUDA out of memory | 
 
