@@ -50,7 +50,7 @@ Performances (134 classes):
 ResNet-50 | 91.56% | | 
 Inception-v3 | 94.49% | 91.79% | 
 Xception | 92.08% | 88.98% | 
-Glyphnet |  |  | 
+Glyphnet | - |  | 
 Capsule Network | - | CUDA out of memory | 
 
 Performances (134 classes with weighted sampler on both training and testing): 
@@ -59,7 +59,7 @@ Performances (134 classes with weighted sampler on both training and testing):
 ResNet-50 | 76.90% | 65.06% | 
 Inception-v3 | 80.77% | 70.34% | 
 Xception | 80.42% | 72.80% | 
-Glyphnet |  |  | 
+Glyphnet | - |  | 
 Capsule Network | - | CUDA out of memory | 
 
 Performances (134 classes with weighted sampler for Ensemble Learning): 
