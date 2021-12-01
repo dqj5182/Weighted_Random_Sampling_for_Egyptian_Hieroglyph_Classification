@@ -63,8 +63,8 @@ Glyphnet |  |  |
 Capsule Network | - | CUDA out of memory | 
 
 Performances (134 classes with weighted sampler for Ensemble Learning): 
-**Model** | Pretrained | From scratch | # of models
------------- | ------------ | ------------- 
+**Model** | Pretrained | From scratch | # of models |
+------------ | ------------ | ------------- |
 ResNet-50 | 78.54% |  | 3 |
 Inception-v3 |  |  | |
 Xception |  |  | |
