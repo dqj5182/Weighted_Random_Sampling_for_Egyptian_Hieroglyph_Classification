@@ -68,7 +68,7 @@ Performances (134 classes with weighted sampler for Ensemble Learning):
 ResNet-50 | 78.54% |  | 3 |
 Inception-v3 |  |  | |
 Xception |  |  | |
-Glyphnet |  |  | |
+Glyphnet | - |  | |
 Capsule Network | - |  | |
 
 
