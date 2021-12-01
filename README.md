@@ -47,7 +47,7 @@ Capsule Network | - | Not yet | - | 48.89%
 Performances (134 classes): 
 **Model** | Pretrained | From scratch | 
 ------------ | ------------ | ------------- 
-ResNet-50 | 91.56% | | 
+ResNet-50 | 91.56% | 87.57% | 
 Inception-v3 | 94.49% | 91.79% | 
 Xception | 92.08% | 88.98% | 
 Glyphnet | - |  | 
