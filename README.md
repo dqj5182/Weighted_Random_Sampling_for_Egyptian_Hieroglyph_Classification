@@ -44,6 +44,15 @@ Xception | 49.76% | 46.61% | 48.26% | 42.90%
 Glyphnet | Not yet | Not yet | Not yet | Not yet | 
 Capsule Network | - | Not yet | - | 48.89%
 
+Performances (40 classes with weighted sampler for Ensemble Learning): 
+**Model** | Pretrained | From scratch | # of models | # of epochs |
+------------ | ------------ | ------------- | ------------- | ------------- |
+ResNet-50 |  |  |  |  |
+Inception-v3 |  |  |  |  |
+Xception |  |  |  |  |
+Glyphnet | - |  | | |
+Capsule Network | - |  | | |
+
 Performances (134 classes): 
 **Model** | Pretrained | From scratch | 
 ------------ | ------------ | ------------- 
