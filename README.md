@@ -29,7 +29,7 @@ Performances (train with data augmentation except CapsNet and test with data aug
 **Model** | Pretrained | From scratch | Pretrained with clean dataset | From scratch with clean dataset
 ------------ | ------------ | ------------- | ------------- | -------------
 ResNet-50 | 98.6% | 97.0% | 99.36% | 95.43%
-Inception-v3 | 99.2% | 98.2% | 99.4% | 98.4% 
+Inception-v3 | **99.2%** | **98.2%** | **99.4%** | **98.4%** 
 Xception | 98.74% | 97.48% | 99.21% | 97.9%
 Glyphnet | Not yet | Not yet | Not yet | Not yet | 
 Capsule Network | - | 98.11% | - | 98.74%
@@ -39,9 +39,9 @@ Performances (train without data augmentation and test with data augmentation):
 **Model** | Pretrained | From scratch | Pretrained with clean dataset | From scratch with clean dataset
 ------------ | ------------ | ------------- | ------------- | -------------
 ResNet-50 | 52.44% | 22.36% | 58.67% | 22.34%
-Inception-v3 | 78.58% | 64.25% | 79.02% | 61.35%
+Inception-v3 | **78.58%** | **64.25%** | **79.02%** | **61.35%**
 Xception | 49.76% | 46.61% | 48.26% | 42.90%
-Glyphnet | Not yet | Not yet | Not yet | Not yet | 
+Glyphnet | - | Not yet | - | Not yet | 
 Capsule Network | - | Not yet | - | 48.89%
 
 Performances (40 classes with weighted sampler): 
