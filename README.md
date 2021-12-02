@@ -49,7 +49,7 @@ Performances (40 classes with weighted sampler):
 ------------ | ------------ | ------------- | 
 ResNet-50 | 99.21% | **97.16%** | 
 Inception-v3 | **99.52%** | 97.00% |
-Xception |  |  |
+Xception | 98.58% |  |
 Glyphnet | - |  |
 Capsule Network | - |  |
 
