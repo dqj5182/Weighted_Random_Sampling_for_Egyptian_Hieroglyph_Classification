@@ -50,7 +50,7 @@ Performances (40 classes with weighted sampler - 50 epochs):
 ResNet-50 | 99.21% | 97.16% | 
 Inception-v3 | **99.52%** | 97.00% |
 Xception | 98.58% | **97.47%** |
-Glyphnet | - |  |
+Glyphnet | - | 91.32% |
 Capsule Network | - |  |
 
 Performances (40 classes with weighted sampler for Ensemble Learning): 
