@@ -60,7 +60,7 @@ Xception | 98.58% | **97.47%** |
 Glyphnet | - |  |
 Capsule Network | - | 91.32% |
 
-Weighted sampler allows our data loader to load similar number of images for each label. This prevent wrong performance evaluation scheme with too much emphasis on image labels with too many images (our dataset is very unbalanced).
+Weighted sampler allows our data loader to load similar number of images for each label. This prevent wrong performance evaluation scheme with too much emphasis on image labels with too many images (our dataset is very unbalanced). For each label, our model is tested with 10 ~ 20 images.
 
 Performances (40 classes with weighted sampler for Ensemble Learning): 
 **Model** | Pretrained | From scratch | # of models | # of epochs |
