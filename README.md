@@ -35,6 +35,13 @@ Glyphnet | Not yet | Not yet | Not yet | Not yet |
 Capsule Network | - | 98.11% | - | **98.74%**
 Capsule Network with data augmentation | - | 93.07% | - | 93.37%
 
+Our data augmentation techniques include:
+1. Random Horizontal Flip
+2. Random Rotation (degrees between -10 and 10)
+3. Random Affine (Random movement of entire image)
+4. Random Color Jitter
+5. Rnadom Erasing (of a small part of each image)
+
 Performances (train without data augmentation and test with data augmentation): 
 **Model** | Pretrained | From scratch | Pretrained with clean dataset | From scratch with clean dataset
 ------------ | ------------ | ------------- | ------------- | -------------
