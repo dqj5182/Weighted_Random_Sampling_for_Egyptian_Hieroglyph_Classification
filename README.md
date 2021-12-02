@@ -25,7 +25,7 @@ Steps for running <b>Jupyter Notebook</b>:
 5. Connect the Google Colab with your Google Drive and run the codes
 6. The training will start right away!
 
-Performances (train with data augmentation except CapsNet and test with data augmentation except CapsNet): 
+**Performances (train with data augmentation except CapsNet and test with data augmentation except CapsNet):**
 **Model** | Pretrained | From scratch | Pretrained with clean dataset | From scratch with clean dataset
 ------------ | ------------ | ------------- | ------------- | -------------
 ResNet-50 | 98.6% | 97.0% | 99.36% | 95.43%
@@ -42,7 +42,7 @@ Our data augmentation techniques include:
 4. Random Color Jitter
 5. Rnadom Erasing (of a small part of each image)
 
-Performances (train without data augmentation and test with data augmentation): 
+**Performances (train without data augmentation and test with data augmentation):**
 **Model** | Pretrained | From scratch | Pretrained with clean dataset | From scratch with clean dataset
 ------------ | ------------ | ------------- | ------------- | -------------
 ResNet-50 | 52.44% | 22.36% | 58.67% | 22.34%
@@ -51,7 +51,7 @@ Xception | 49.76% | 46.61% | 48.26% | 42.90%
 Glyphnet | - | Not yet | - | Not yet | 
 Capsule Network | - | 49.60% | - | 48.89%
 
-Performances (40 classes with weighted sampler - 50 epochs): 
+**Performances (40 classes with weighted sampler - 50 epochs):**
 **Model** | Pretrained | From scratch | 
 ------------ | ------------ | ------------- | 
 ResNet-50 | 99.21% | 97.16% | 
@@ -62,7 +62,7 @@ Capsule Network | - | 91.32% |
 
 Weighted sampler allows our data loader to load similar number of images for each label. This prevent wrong performance evaluation scheme with too much emphasis on image labels with too many images (our dataset is very unbalanced). For each label, our model is tested with 10 ~ 20 images.
 
-Performances (40 classes with weighted sampler for Ensemble Learning): 
+**Performances (40 classes with weighted sampler for Ensemble Learning):**
 **Model** | Pretrained | From scratch | # of models | # of epochs |
 ------------ | ------------ | ------------- | ------------- | ------------- |
 ResNet-50 | 99.37% |  | 3 | 30 |
@@ -71,7 +71,7 @@ Xception |  |  |  |  |
 Glyphnet | - |  | | |
 Capsule Network | - |  | | |
 
-Performances (134 classes): 
+**Performances (134 classes):**
 **Model** | Pretrained | From scratch | 
 ------------ | ------------ | ------------- 
 ResNet-50 | 91.56% | 87.57% | 
@@ -82,7 +82,7 @@ Capsule Network | - | CUDA out of memory |
 
 We have left any method that gives CUDA out of memory in Google Colab Pro as we believe our interdisciplinary models should be used only when the Egyptologists are accessible without any huge GPU server in their disposal.
 
-Performances (134 classes with weighted sampler on both training and testing): 
+**Performances (134 classes with weighted sampler on both training and testing):**
 **Model** | Pretrained | From scratch | 
 ------------ | ------------ | ------------- 
 ResNet-50 | 76.90% | 65.06% | 
@@ -91,7 +91,7 @@ Xception | 80.42% | **72.80%** |
 Glyphnet | - |  | 
 Capsule Network | - | CUDA out of memory | 
 
-Performances (134 classes with weighted sampler for Ensemble Learning): 
+**Performances (134 classes with weighted sampler for Ensemble Learning):**
 **Model** | Pretrained | From scratch | # of models | # of epochs |
 ------------ | ------------ | ------------- | ------------- | ------------- |
 ResNet-50 | **78.54%** |  | 3 | 10 |
@@ -103,7 +103,7 @@ Capsule Network | - |  | | |
 
 Pretrained performance for Capsule Network is not on this paper for both computational limit and our pursuit on training from scratch approach using Capsule Network
 
-Capsule Network Hyperparameter tuning
+**Capsule Network Hyperparameter tuning**
 **Model** | num_capsules | routing_iterations | performance
 ------------ | ------------ | ------------- | -------------
 Capsule Network | 8 | 3 | **98.74%**
