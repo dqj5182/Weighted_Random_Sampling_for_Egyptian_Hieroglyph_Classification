@@ -42,7 +42,7 @@ ResNet-50 | 52.44% | 22.36% | 58.67% | 22.34%
 Inception-v3 | **78.58%** | **64.25%** | **79.02%** | **61.35%**
 Xception | 49.76% | 46.61% | 48.26% | 42.90%
 Glyphnet | - | Not yet | - | Not yet | 
-Capsule Network | - | Not yet | - | 48.89%
+Capsule Network | - | 49.60% | - | 48.89%
 
 Performances (40 classes with weighted sampler - 50 epochs): 
 **Model** | Pretrained | From scratch | 
