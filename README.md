@@ -47,8 +47,8 @@ Capsule Network | - | Not yet | - | 48.89%
 Performances (40 classes with weighted sampler): 
 **Model** | Pretrained | From scratch | 
 ------------ | ------------ | ------------- | 
-ResNet-50 | 99.21% | 97.16% | 
-Inception-v3 | 99.52% | 97.00% |
+ResNet-50 | 99.21% | **97.16%** | 
+Inception-v3 | **99.52%** | 97.00% |
 Xception |  |  |
 Glyphnet | - |  |
 Capsule Network | - |  |
@@ -66,7 +66,7 @@ Performances (134 classes):
 **Model** | Pretrained | From scratch | 
 ------------ | ------------ | ------------- 
 ResNet-50 | 91.56% | 87.57% | 
-Inception-v3 | 94.49% | 91.79% | 
+Inception-v3 | **94.49%** | **91.79%** | 
 Xception | 92.08% | 88.98% | 
 Glyphnet | - |  | 
 Capsule Network | - | CUDA out of memory | 
@@ -75,15 +75,15 @@ Performances (134 classes with weighted sampler on both training and testing):
 **Model** | Pretrained | From scratch | 
 ------------ | ------------ | ------------- 
 ResNet-50 | 76.90% | 65.06% | 
-Inception-v3 | 80.77% | 70.34% | 
-Xception | 80.42% | 72.80% | 
+Inception-v3 | **80.77%** | 70.34% | 
+Xception | 80.42% | **72.80%** | 
 Glyphnet | - |  | 
 Capsule Network | - | CUDA out of memory | 
 
 Performances (134 classes with weighted sampler for Ensemble Learning): 
 **Model** | Pretrained | From scratch | # of models | # of epochs |
 ------------ | ------------ | ------------- | ------------- | ------------- |
-ResNet-50 | 78.54% |  | 3 | 10 |
+ResNet-50 | **78.54%** |  | 3 | 10 |
 Inception-v3 | 73.58% |  | 3 | 10 |
 Xception | 78.19% |  | 3 | 20 |
 Glyphnet | - |  | | |
@@ -95,7 +95,7 @@ Pretrained performance for Capsule Network is not on this paper for both computa
 Capsule Network Hyperparameter tuning
 **Model** | num_capsules | routing_iterations | performance
 ------------ | ------------ | ------------- | -------------
-Capsule Network | 8 | 3 | 98.74%
+Capsule Network | 8 | 3 | **98.74%**
 Capsule Network | 12 | 3 | 97%
 Capsule Network | 15 | 3 | CUDA Out of Memory
 
