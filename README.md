@@ -80,6 +80,8 @@ Xception | 92.08% | 88.98% |
 Glyphnet | - |  | 
 Capsule Network | - | CUDA out of memory | 
 
+We have left any method that gives CUDA out of memory in Google Colab Pro as we believe our interdisciplinary models should be used only when the Egyptologists are accessible without any huge GPU server in their disposal.
+
 Performances (134 classes with weighted sampler on both training and testing): 
 **Model** | Pretrained | From scratch | 
 ------------ | ------------ | ------------- 
