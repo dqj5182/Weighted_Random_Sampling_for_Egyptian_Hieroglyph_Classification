@@ -56,7 +56,7 @@ Capsule Network | - | 91.32% |
 Performances (40 classes with weighted sampler for Ensemble Learning): 
 **Model** | Pretrained | From scratch | # of models | # of epochs |
 ------------ | ------------ | ------------- | ------------- | ------------- |
-ResNet-50 |  |  |  |  |
+ResNet-50 | 99.37% |  | 3 | 30 |
 Inception-v3 |  |  |  |  |
 Xception |  |  |  |  |
 Glyphnet | - |  | | |
