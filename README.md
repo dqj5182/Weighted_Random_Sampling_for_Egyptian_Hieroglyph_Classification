@@ -65,7 +65,7 @@ Weighted sampler allows our data loader to load similar number of images for eac
 **Performances (40 classes with weighted sampler for Ensemble Learning):**
 **Model** | Pretrained | From scratch | # of models | # of epochs |
 ------------ | ------------ | ------------- | ------------- | ------------- |
-ResNet-50 | 99.37% |  | 3 | 30 |
+ResNet-50 | 99.37% | 96.53% | 3 | 30 |
 Inception-v3 |  |  |  |  |
 Xception |  |  |  |  |
 Glyphnet | - |  | | |
