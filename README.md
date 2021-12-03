@@ -31,7 +31,7 @@ Steps for running <b>Jupyter Notebook</b>:
 ResNet-50 | 98.6% | 97.0% | 99.36% | 95.43%
 Inception-v3 | **99.2%** | **98.2%** | **99.4%** | 98.4% 
 Xception | 98.74% | 97.48% | 99.21% | 97.9%
-Glyphnet | Not yet | Not yet | Not yet | Not yet | 
+Glyphnet | - | Not yet | - | Not yet | 
 Capsule Network | - | 98.11% | - | **98.74%**
 Capsule Network with data augmentation | - | 93.07% | - | 93.37%
 
