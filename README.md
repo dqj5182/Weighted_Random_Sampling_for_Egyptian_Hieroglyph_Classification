@@ -25,7 +25,7 @@ Steps for running <b>Jupyter Notebook</b>:
 5. Connect the Google Colab with your Google Drive and run the codes
 6. The training will start right away!
 
-**Performances (train with data augmentation except CapsNet and test with data augmentation except CapsNet):**
+**Performances (train with [data augmentation](https://pytorch.org/vision/stable/transforms.html) except CapsNet and test with [data augmentation](https://pytorch.org/vision/stable/transforms.html) except CapsNet):**
 **Model** | Pretrained | From scratch | Pretrained with clean dataset | From scratch with clean dataset
 ------------ | ------------ | ------------- | ------------- | -------------
 ResNet-50 | 98.6% | 97.0% | 99.36% | 95.43%
@@ -42,7 +42,7 @@ Our data augmentation techniques include:
 4. Random Color Jitter
 5. Rnadom Erasing (of a small part of each image)
 
-**Performances (train without data augmentation and test with data augmentation):**
+**Performances (train without [data augmentation](https://pytorch.org/vision/stable/transforms.html) and test with [data augmentation](https://pytorch.org/vision/stable/transforms.html)):**
 **Model** | Pretrained | From scratch | Pretrained with clean dataset | From scratch with clean dataset
 ------------ | ------------ | ------------- | ------------- | -------------
 ResNet-50 | 52.44% | 22.36% | 58.67% | 22.34%
