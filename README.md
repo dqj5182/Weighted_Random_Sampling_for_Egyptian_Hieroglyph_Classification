@@ -51,7 +51,7 @@ Xception | 49.76% | 46.61% | 48.26% | 42.90%
 Glyphnet | - | Not yet | - | Not yet | 
 Capsule Network | - | 49.60% | - | 48.89%
 
-**Performances (40 classes with [weighted sampler](https://pytorch.org/docs/stable/data.html) - 50 epochs):**
+**Performances (40 classes with [weighted sampler](https://pytorch.org/docs/stable/data.html) only on clean dataset - 50 epochs):**
 **Model** | Pretrained | From scratch | 
 ------------ | ------------ | ------------- | 
 ResNet-50 | 99.21% | 97.16% | 
