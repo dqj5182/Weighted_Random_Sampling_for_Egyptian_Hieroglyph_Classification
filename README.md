@@ -51,7 +51,7 @@ Xception | 49.76% | 46.61% | 48.26% | 42.90%
 Glyphnet | - | Not yet | - | Not yet | 
 Capsule Network | - | 49.60% | - | 48.89%
 
-**Performances (40 classes with weighted sampler - 50 epochs):**
+**Performances (40 classes with [weighted sampler](https://pytorch.org/docs/stable/data.html) - 50 epochs):**
 **Model** | Pretrained | From scratch | 
 ------------ | ------------ | ------------- | 
 ResNet-50 | 99.21% | 97.16% | 
@@ -62,7 +62,7 @@ Capsule Network | - | 91.32% |
 
 Weighted sampler allows our data loader to load similar number of images for each label. This prevent wrong performance evaluation scheme with too much emphasis on image labels with too many images (our dataset is very unbalanced). For each label, our model is tested with 10 ~ 20 images.
 
-**Performances (40 classes with weighted sampler for Ensemble Learning):**
+**Performances (40 classes with [weighted sampler](https://pytorch.org/docs/stable/data.html) for Ensemble Learning):**
 **Model** | Pretrained | From scratch | # of models | # of epochs |
 ------------ | ------------ | ------------- | ------------- | ------------- |
 ResNet-50 | 99.37% | 96.53% | 3 | 30 |
@@ -82,7 +82,7 @@ Capsule Network | - | CUDA out of memory |
 
 We have left any method that gives CUDA out of memory in Google Colab Pro as we believe our interdisciplinary models should be used only when the Egyptologists are accessible without any huge GPU server in their disposal.
 
-**Performances (134 classes with weighted sampler on both training and testing):**
+**Performances (134 classes with [weighted sampler](https://pytorch.org/docs/stable/data.html) on both training and testing):**
 **Model** | Pretrained | From scratch | 
 ------------ | ------------ | ------------- 
 ResNet-50 | 76.90% | 65.06% | 
@@ -91,7 +91,7 @@ Xception | 80.42% | **72.80%** |
 Glyphnet | - |  | 
 Capsule Network | - | CUDA out of memory | 
 
-**Performances (134 classes with weighted sampler for Ensemble Learning):**
+**Performances (134 classes with [weighted sampler](https://pytorch.org/docs/stable/data.html) for Ensemble Learning):**
 **Model** | Pretrained | From scratch | # of models | # of epochs |
 ------------ | ------------ | ------------- | ------------- | ------------- |
 ResNet-50 | **78.54%** |  | 3 | 10 |
@@ -110,7 +110,7 @@ Capsule Network | 8 | 3 | **98.74%**
 Capsule Network | 12 | 3 | 97%
 Capsule Network | 15 | 3 | CUDA Out of Memory
 
-**The best performing model: Inception-v3 with weighted sampler (99.52% accuracy on 40 classes)**
+**The best performing model: Inception-v3 with [weighted sampler](https://pytorch.org/docs/stable/data.html) (99.52% accuracy on 40 classes)**
 
 Prior implementations:
 1. [GlyphReader by Morris Franken](https://github.com/morrisfranken/glyphreader) which extracts features using Inception-v3 and classifies hieroglyphs using SVM.
