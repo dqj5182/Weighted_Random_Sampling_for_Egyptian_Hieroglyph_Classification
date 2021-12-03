@@ -110,7 +110,7 @@ Capsule Network | 8 | 3 | **98.74%**
 Capsule Network | 12 | 3 | 97%
 Capsule Network | 15 | 3 | CUDA Out of Memory
 
-The best performing model: Inception-v3 with weighted sampler (99.52% accuracy on 40 classes)
+**The best performing model: Inception-v3 with weighted sampler (99.52% accuracy on 40 classes)**
 
 Prior implementations:
 1. [GlyphReader by Morris Franken](https://github.com/morrisfranken/glyphreader) which extracts features using Inception-v3 and classifies hieroglyphs using SVM.
