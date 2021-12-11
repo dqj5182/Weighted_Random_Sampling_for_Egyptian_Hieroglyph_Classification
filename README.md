@@ -1,6 +1,6 @@
-# Egyptian Hieroglyph Classification using Capsule Network
+# Weighted Random Sampling for Egyptian Hieroglyph Classification
 
-This is a [PyTorch](https://pytorch.org/) implementation of the paper "Egyptian Hieroglyph Classification using Capsule Network" by Daniel Jung, Kangdong Yuan, and Kaamran Raahemifar.
+This is a [PyTorch](https://pytorch.org/) implementation of the paper "Weighted Random Sampler generalizes ConvNets better in Unbalanced Dataset: Egyptian Hieroglyph Classification" by Daniel Jung, Kangdong Yuan, and Kaamran Raahemifar.
 
 Please download the dataset "EgyptianHieroglyphDataset_Original" (40 classes) at my [Google Drive](https://drive.google.com/drive/folders/1bhnMJ8NbCa-qw53EKy-olZp3cJKZU_jc?usp=sharing).<br />
 Please download the dataset "EgyptianHieroglyphDataset_Original_Clean" (40 classes) at my [Google Drive](https://drive.google.com/drive/folders/1X5HdFvgWJOVtA-GxBLr1K_0FHJS2RZcZ?usp=sharing).<br />
